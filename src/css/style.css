@@ -1,0 +1,258 @@
+*,*:before,*:after {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+html,body {
+  height: 100%;
+}
+
+body {
+  font-family: Oswald;
+}
+
+.wrapper {
+  width: 100%;
+  min-height: 100%;
+  overflow: hidden;
+}
+
+.page {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.parallax {
+  position: relative;
+  height: 100%;
+}
+
+.parallax__mountain {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.parallax__mountain_1 {
+  background: url('../images/m_1.png') 0 0 / cover no-repeat;
+}
+
+.parallax__mountain_2 {
+  background: url('../images/m_2.png') bottom right / 45% no-repeat;
+  z-index: 1;
+}
+
+.parallax__mountain_3 {
+  background: url('../images/m_3.png') left bottom / 100% no-repeat;
+  z-index: 1;
+}
+
+.parallax__fog {
+  background: url('../images/fog_1.png') bottom / 100% no-repeat;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+
+.content {
+  position: relative;
+}
+
+.content__body {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.content__header {
+  text-align: center;
+  margin-left: 100px;
+}
+
+.content__title {
+  font-size: 130px;
+  color:rgb(0, 89, 255);
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.content__img {
+  margin-bottom: 100px;
+  /* display: block; */
+  /* width: 500px; */
+  /* margin: 0 auto; */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 667px;
+  width: 100%;
+  transition: 1s;
+  padding: 0 40px;
+  box-sizing: border-box;
+  background: url(../images/MASK375.png) no-repeat fixed,
+    url(../images/Video375.jpg) no-repeat fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+header.masthead {
+  display: flex;
+  justify-content: space-between;
+}
+
+header.scrolled {
+  height: 150px;
+  background-position-y: -1100px;
+  transition: 1s;
+  margin-bottom: -1000px;
+}
+
+header h2,
+header h1 {
+  transition: 1s;
+  color: #fff;
+  font-family: Gotham Pro;
+  font-style: normal;
+  margin: 0;
+}
+
+header h2 {
+  font-weight: 300;
+  font-size: 25px;
+  line-height: 25px;
+  margin-bottom: 10px;
+  width: 210px;
+}
+
+header h1 {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 38px;
+  margin-bottom: 60px;
+}
+
+header.scrolled h2,
+header.scrolled h1 {
+  opacity: 0;
+}
+
+header .logo {
+  background-image: url(../images/logo.png);
+  background-size: cover;
+  display: block;
+  width: 110px;
+  height: 43px;
+  margin-top: 40px;
+  transition: 1s;
+}
+
+header.scrolled .logo {
+  background-image: url(../images/miniLogo.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-top: 50px;
+}
+
+nav {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+header.scrolled nav {
+  position: fixed;
+  right: 60px;
+  top: 60px;
+  background-image: url(../images/menu.svg);
+  background-repeat: no-repeat;
+  width: 35px;
+  height: 25px;
+  margin-top: 0;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  transition: 1s;
+}
+
+header.scrolled nav ul {
+  opacity: 0;
+  transform: translateX(100px);
+  visibility: hidden;
+}
+
+nav ul li {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav ul li a {
+  display: inline-block;
+  font-size: 20px;
+  text-decoration: none;
+  color: #fff;
+  margin-bottom: 15px;
+}
+
+nav ul li span {
+  text-transform: uppercase;
+  margin-right: 20px;
+}
+
+main {
+  margin-top: 756px;
+  transition: 1s;
+}
+
+main.scrolled {
+  margin-top: 130px;
+  padding: 0 200px;
+}
+
+@media(min-width: 376px) {
+  header {
+    background: url(../images/MASK.png) no-repeat fixed,
+    url(../images/Video375.jpg) no-repeat fixed;
+  }
+} */
